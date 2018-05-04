@@ -9,6 +9,8 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTextView *inTextView;
+@property (weak) IBOutlet NSTextView *outTextView;
 
 @end
 
